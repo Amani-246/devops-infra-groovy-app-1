@@ -110,10 +110,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<name>prodcts-app</name>
-				</image>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.gmavenplus</groupId>
