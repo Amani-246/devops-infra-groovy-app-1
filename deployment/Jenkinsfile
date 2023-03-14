@@ -57,7 +57,11 @@ stage('Integration Test') {
  sh "minikube image load appuaparna/app-products-infra"
  
  } else {
+<<<<<<< HEAD
  bat(/minikube image load appuaparna/app-products-infra/)
+=======
+ bat("minikube image load appuaparna/app-products-infra")
+>>>>>>> develop
  }
  }
 
