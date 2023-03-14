@@ -113,13 +113,10 @@
 				<configuration>
 					<image>
 						<name>products-app</name>
-<<<<<<< HEAD
 	
-=======
 				
 					</image>
 				</configuration>
->>>>>>> eec3f3b7fe36fe30e80320a5335f0d55ab154b14
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.gmavenplus</groupId>
