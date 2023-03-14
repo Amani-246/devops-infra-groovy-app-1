@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: app-products-infra
-  replicas: 6
+  replicas: 2
   strategy:
      type: RollingUpdate
   template:
@@ -20,10 +20,6 @@ spec:
       - name: app-products-infra
         image: appuaparna/app-products-infra
         imagePullPolicy: IfNotPresent
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8888
 
